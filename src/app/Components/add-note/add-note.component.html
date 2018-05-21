@@ -29,7 +29,7 @@
   </div>
   <span class="formButtons">
    <button type="button" (click)="bsModalRef?.hide()" class="btn btn-danger">Cancel</button>
-    <button type="submit" class="btn btn-success">Post</button>
+    <button type="submit" *ngIf="noteForm?.valid" class="btn btn-success">Post</button>
   </span>
   
 </form>
