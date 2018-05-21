@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+.note{
+    display: inline-block;
+    height: 150px;
+}
+
+.formButtons{
+    float:right;
+}
+
+.formBody{
+        border:2px solid black;
+        display: inline-block;
+        width: 100%;
+        padding: 5px;
+}
+
+fieldset{
+    padding: .35em .625em .75em;
+    margin: 0 2px;
+    border: 4px solid silver;
+    height: 100%;
+}
+
+legend {
+    font-size: 14px;
+    width: inherit;
+    margin-bottom: 5px;
+    padding: 0px 5px;
+    border: 0;
+}
